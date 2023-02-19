@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "nx",
     "start": "ng serve",
-    "build": "nx build --preserveSymlinks",
+    "build": "nx app-test:build:production --preserveSymlinks",
     "test": "ng test --preserveSymlinks",
     "lint": "ng lint",
     "e2e": "ng e2e",
@@ -20,12 +20,14 @@
     "@angular/platform-browser": "~10.0.4",
     "@angular/platform-browser-dynamic": "~10.0.4",
     "@angular/router": "~10.0.4",
+    "classlist.js": "^1.1.20150312",
+    "core-js": "^2.6.6",
+    "jquery": "^3.4.1",
+    "jquery-ui": "^1.13.1",
     "rxjs": "~6.5.5",
     "tslib": "^2.0.0",
-    "zone.js": "~0.10.3",
-    "jquery": "^3.4.1",
-    "jquery-ui": "^1.13.1"
-
+    "web-animations-js": "^2.3.2",
+    "zone.js": "~0.10.3"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.1000.3",
@@ -34,7 +36,7 @@
     "@nrwl/workspace": "13.9.7",
     "@types/jasmine": "~3.5.0",
     "@types/jasminewd2": "~2.0.3",
-    "@types/node": "^12.11.1",
+    "@types/node": "^12.20.55",
     "codelyzer": "^6.0.0",
     "jasmine-core": "~3.5.0",
     "jasmine-spec-reporter": "~5.0.0",
