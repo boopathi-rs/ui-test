@@ -37,6 +37,14 @@
     </plugins>
 </build>
 
+    <distributionManagement>
+        <repository>
+            <id>central</id>
+            <name>a0ia4uwi3tien-artifactory-primary-0-releases</name>
+            <url>https://boopathiramasamy.jfrog.io/artifactory/default-libs-release</url>
+        </repository>
+    </distributionManagement>
+
 <scm>
     <connection>scm:git:git@github.com:boopathi-rs/ui-test.git</connection>
     <developerConnection>scm:git:git@github.com:boopathi-rs/ui-test.git</developerConnection>
