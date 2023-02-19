@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "nx",
     "start": "ng serve",
-    "build": "nx run app-test:build:production --preserveSymlinks",
+    "build": "nx run app-test:build:production",
     "test": "ng test --preserveSymlinks",
     "lint": "ng lint",
     "e2e": "ng e2e",
