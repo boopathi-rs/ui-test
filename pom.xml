@@ -39,7 +39,7 @@
             <executions>
               <execution>
                 <id>npm-install(2)</id>
-                <phase>generate-resources</phase>
+                <phase>initialize</phase>
                 <goals>
                   <goal>exec</goal>
                 </goals>
